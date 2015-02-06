@@ -1,0 +1,45 @@
+FotoForensics
+http://fotoforensics.com/
+
+Rating: 5/5
+
+What it does:
+You submit a JPEG or PNG to them (via url or local file) and their system analyse its meta data to show
+what program may have loaded it, any changes that may ahve been made, etc.
+
+How to:
+Once an image has been uploaded, fotoforensics offers five btis of info (at the top left of the page):
+
+	Digest:
+		A short and simple summary of the file. ITs name, type, size, and checksum values.
+		
+	ELA:
+		A visualization of the Error Level Analysis.
+		
+	JPEG %:
+		An estimation of the quality level the image was last saved at.
+		
+	Metadata:
+		More detailed data about the image. Including up to: encoding process used, bits per sample, opened in photoshop or not, etc.
+		
+	Original:
+		The original image.
+
+While the metadata and digest hold some nice info, the real use of this tool is the ELA visualization. ELA (Error Level Analysis) takes 
+advantage of the way PNGs and JPEGs are compressed before saving to pick out areas that may have been tampered with. When a PNG/JPEG image 
+is saved, it samples individual cells of the image (10px*10px for example) to normalize and compress their colour data. If an entire block 
+is the same color, for example, rather than save 100 pixels of the same color, the compression algorithm can save the entire block as that 
+color, thus compressing the data 100 times over. Basically, the compression algorithm attempts to simplify the color information as much as 
+possible. Each time a PNG/JPEG is saved, the color inromation is simplified a bit more. After enough saves, no more compression can occur. 
+FotoForensics presents a visulization of this ELA (or compression of color information) to the user and their own tutorial covers it in much 
+more detail. http://fotoforensics.com/tutorial-ela.php
+
+The quick and dirty of how to use it:
+BLACK areas represent complete compression of color information. More black means the image has been re-saved more times.
+WHITE represents a high ELA value.
+RED + BLUE 'rainbow-ing' suggests the use of an Adobe product (but not a guarantee).
+
+The use of the tool comes by comparing color areas and then to the original. For example, a black area will usually appear as a solid color 
+on the original image, and means the image has been re-saved enough times to remove all ELA from that patch. If a white patch of ELA color appears next to this black area, and the original image corresponding to the white patch is a mostly uniform color, this would indicate that the white patch area was edited, or added in later (is not original in comparison to the black rated area).
+
+Basically, this tool will help you to detect edited images and call fake with more evidence. Give thier tutorials and case examples a read. Throw in your own 'fake' images, and become a photoshop spotting pro!
