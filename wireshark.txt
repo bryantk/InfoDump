@@ -1,0 +1,17 @@
+Wireshark
+https://www.wireshark.org/
+
+Rating: 5/5
+
+What it does:
+Listens to all network traffic (on specified connection) and spits out a nice pcap file. It can also search, filter,
+and parse the data.
+
+How to:
+Run the program, select a network adapter, press go (make sure it is the right connection). all network traffic is displayed
+originally by time, but can be sorted as the user pleases.
+This tool is amazing and its use goes much deeper than my knowledge.
+
+Things to recall:
+	-Right click any TCP and 'follow stream' to follow the connection.
+	-Use the filters!

@@ -1,0 +1,25 @@
+Network Miner
+http://www.netresec.com/?page=NetworkMiner
+
+Rating: 4/5
+
+What it does:
+Listens to all network traffic (on specified connection) while pulling recognized artefacts (images, large files, plain text
+passwords etc. ) and organizing them. Also groups and identifies hosts.
+
+How to:
+Run the program, select a network adapter, press go. It will grab and organize everything it recognizes.
+This program is great for monitoring and understanding what is going on over a connection, however it has some shortcomings.
+
+Pros:
+	-Two clicks is all it takes.
+	-Organizes capture sessions into 'case' files.
+	-Organizes lots of data.
+	-Can set up 'trigger' words to search for
+	-Supported protocols for file extraction are FTP, TFTP, HTTP, SMB and SMTP
+	-Can read from pcap files.
+
+Cons:
+	-Data capture rate limit (not indented to capture all network data; i.e. sit on a switch).
+	-Not good for non-files (like when a back-door requests 'cat /etc/passwd').
+	

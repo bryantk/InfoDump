@@ -1,0 +1,28 @@
+TCP Dump
+Standard Unix thing
+
+Rating: 2/5
+
+What it does:
+Wireshark, without a GUI, or the compactness of PCAPS, or any nice features. Use Wireshark.
+
+How to:
+Must have root access
+cmd 'tcpdump'
+
+without flags, this tool is useless. 
+
+Flags:
+-i ethernet_adapter_to_capture_on	
+-c #_of_packets_to_capture_then_quit
+-XX															display captured packets in HEX
+-w file_to_write_to
+-r file_to_read_from
+-n 															don't resolve host names
+-nn															don't resolve host or port names
+fddi, tr, wlan, ip, ip6, arp, rarp, decnet, tcp and udp		capture only packets of that type
+greater #X_of_bytes											only capture packets larger than X
+less #X_of_bytes											only capture packets smaller than X
+port #														only capture packets sent to the port
+-vv															very verbose
+-nnvvXS														grabs packets and payloads
