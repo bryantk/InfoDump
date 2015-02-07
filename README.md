@@ -8,6 +8,7 @@ you don't recall how to activate.
 This is a succinct database containing those bits of awesome that should not be forgotten.
 
 Why a public git Repo?
+
 If you don't want free access to some cool 'quick start' guides, ok... go away then. For everyone else, why hide info when you can
 share it. Most of what I know came from Google anyways, so here is my attempt at giving back a bit. Also, as a git repo, you can
 add you own cool tools and tricks, correct my errors, or even branch it off and steal it as your own (don't do that). Ideally, I will
