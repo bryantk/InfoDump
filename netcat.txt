@@ -1,6 +1,18 @@
 NetCat
 https://eternallybored.org/misc/netcat/  -windows
 
+ .       .       
+  \`-"'"-'/       
+   } 6 6 {        
+  ==. Y ,==       
+    /^^^\  .      
+   /     \  )     
+  (  )-(  )/     _
+  -""---""---   / 
+ /   Ncat    \_/  
+(     ____        
+ \_.=|____E  
+ 
 Rating: 5/5
 
 What it does:
